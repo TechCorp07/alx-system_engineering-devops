@@ -1,2 +1,2 @@
 #!/bin/bash
-ls *[A-Z]* |xargs -i mv {} /tmp/u
+ls *[A-Z]* mv /tmp/u
