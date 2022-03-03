@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -name '*[A-Z]*' -print0 | xargs -0 -I {} mv {} /tmp/u/
+mv [[:upper:]]* /tmp/u/
